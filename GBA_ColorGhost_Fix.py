@@ -29,6 +29,8 @@ try:
         fh.close()
 except:
     print('\nFile not patched!')
+    input("Press Enter to continue...")
     raise SystemExit(0)
 print('\nFile patched')
+input("Press Enter to continue...")
 SystemExit(0)
